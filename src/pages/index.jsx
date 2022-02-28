@@ -12,7 +12,7 @@ import * as style from "../styles/index.module.scss"
 const Index = () => {
     return (
         <Layout>
-            <Seo title="Abe Hiroki" description="Abe Hirokiのポートフォリオサイトです" />
+            <Seo title="kogi nagata" description="kogi nagata's blog" />
             <div className={style.hero}>
                 <StaticImage src="../images/index-hero.jpg" alt="hero" quality={90} placeholder="blurred" formats={["AUTO", "WEBP", "AVIF"]} className={style.heroImg} />
                 <div className={style.textContainer}>
